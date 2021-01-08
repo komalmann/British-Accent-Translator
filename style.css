@@ -58,7 +58,7 @@ nav{
 }
 
 #btn{
-    margin:1rem;
+    margin:0.001rem;
     width:30%;
     height:7vh;
     background-color: var(--primary-color);
@@ -81,7 +81,7 @@ nav{
 footer{
     bottom:0;
     width:100%;
-    height: 10vh;
+    height: 7vh;
     background-color: var(--primary-color);
     color:var(--secondary-color);
     padding:1rem;
