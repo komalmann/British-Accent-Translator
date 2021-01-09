@@ -1,19 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
 
 body{
-    box-sizing: border-box;
-    font-family: 'Kalam',
-        cursive;
     background-attachment: fixed;
     background-color: #8EC5FC;
     background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
-    
-/* background-color: #FFDEE9;
-background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%); */
 }
 
 *{
     margin:0;
+    box-sizing: border-box;
+    font-family: 'Kalam',
+    cursive;
 }
 
 :root{
@@ -23,6 +20,7 @@ background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%); */
 
 nav{
     height:10vh;
+    width: 100%;
     background-color: var(--primary-color);
     margin-top:0;
 }
@@ -59,7 +57,7 @@ nav{
 
 #btn{
     margin:0.001rem;
-    width:30%;
+    width:50%;
     height:7vh;
     background-color: var(--primary-color);
     color:var(--secondary-color);
@@ -71,7 +69,7 @@ nav{
 
 #output{
     width:80%;
-    height: 13vh;
+    height: 10vh;
     background-color: white;
     margin:1rem;
     padding: 1rem;
@@ -79,13 +77,19 @@ nav{
 }
 
 footer{
-    bottom:0;
-    width:100%;
-    height: 7vh;
     background-color: var(--primary-color);
     color:var(--secondary-color);
-    padding:1rem;
+    width:100%;
+    padding:0.5rem;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    position: fixed;
+    bottom: 0;
+
+    /* bottom:0;
+    margin-bottom: 0;
+    height: 12vh; */
+    
+    
 }
 
