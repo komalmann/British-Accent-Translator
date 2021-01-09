@@ -3,7 +3,7 @@
 Do you wish to learn British Accent? Learn by converting from English to British Accent using this translator! 
 
 ### Built Using
-* HTML, CSS, JavsScript
+* HTML, CSS, JavaScript
 
 ### How to use?
 
