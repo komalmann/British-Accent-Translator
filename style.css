@@ -82,8 +82,12 @@ footer{
     padding:0.5rem;
     text-align: center;
     font-size: 1.1rem;
-    position: fixed;
-    bottom: 0;
+   
+
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:30px;
 
     /* bottom:0;
     margin-bottom: 0;
