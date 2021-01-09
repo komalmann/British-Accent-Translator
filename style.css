@@ -19,7 +19,6 @@ body{
 }
 
 nav{
-    height:10vh;
     width: 100%;
     background-color: var(--primary-color);
     margin-top:0;
