@@ -26,9 +26,9 @@ nav{
 
 .nav-header{
     text-align: center;
-    padding:1rem;
+    padding:0.5rem;
     color: var(--secondary-color);
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bolder;
 }
 
